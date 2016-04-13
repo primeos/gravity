@@ -47,7 +47,7 @@
 (check-expect (slower (* 2 MIN-SPEEDUP)) MIN-SPEEDUP)
 (define (slower speed)
   (if (> speed MIN-SPEEDUP)
-      (/ speed 2)
+      (/ speed 3)
       speed))
 
 ; Mission KeyEvent -> Mission
