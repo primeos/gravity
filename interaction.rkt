@@ -51,6 +51,7 @@
       speed))
 
 ; Mission KeyEvent -> Mission
+; Hello, World!
 ; handles keypresses for controlling mission parameters
 (define (handle-on-key m k)
   (cond
